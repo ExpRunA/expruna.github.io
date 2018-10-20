@@ -1,4 +1,3 @@
-# ExpRunA - Experiment Run and Analyze Tool #
 
 ## Description ##
 We present ExpRunA, a Web-based Tool implementing a Domain-Specific Modeling approach, and a running infrastructure to support technology-oriented experiments.
