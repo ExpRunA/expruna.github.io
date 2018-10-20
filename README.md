@@ -15,7 +15,7 @@ To run our tool, we rely on [Docker](https://www.docker.com/) and [Docker Compos
 
 The whole solution comprises a Web-based tool, a database, an execution infrastructure, and an analysis infrastructure. Each component runs in a Docker container. We have already created a pre-built image for each component. However, we also provide their source-code and their Dockerfiles, in case it is necessary to recreate the images.
 
-### Web-based Tool###
+### Web-based Tool ###
 
 ExpRunA comprises a DSL editor, execution and analysis scripts generators, and commands to execute, monitor execution, and analyze the results. We built, installed, and configured the tool in a Docker image named `eneiascs/dsm-framework`.
 
@@ -63,7 +63,7 @@ The source-code of this API is in the folder `br.unb.autoexp.storage`.
 
 The Dockerfile and the script to build this image are in `docker/dsm-r-base-api`. 
 
-## Running ExpRunA##
+## Running ExpRunA ##
 
 The file `docker-compose.yml` contains the configuration necessary to run all the Docker containers containing the components. This file also loads some environment variables defined in the file `.env`.
 
@@ -112,7 +112,7 @@ To re-open the execution status while the applications are running, right-click 
 ### Analyzing the results ###
 The analysis script is automatically executed after execution finishes. However, if you want to re-run it, right-click on the execution folder (subfolder of executions), then click on `Run Analysis`.
 
-## Evaluation Results and Replication of Experiments##
+## Evaluation Results and Replication of Experiments ##
 
 We provide all the evaluation results and instructions for further replications on [https://github.com/eneiascs/dsm-experiments-evaluation](https://github.com/eneiascs/dsm-experiments-evaluation).
 
